@@ -4,11 +4,6 @@ cd "/Users/nick0o0o0/Library/Mobile Documents/com~apple~CloudDocs/gxyfile/third_
 
 import delimited "NBATeamData.csv", clear
 
-// label variable TotalRevenue "totalrevenues"
-// label variable CityPopulation "CityPopulation"
-// label variable Attendance "attendance"
-// label variable StateIncome "statemedianincome2021"
-// label variable WinningTotal "WinningTotal"
 
 eststo spec1: regress totalrevenues citypopulationinthousand
 eststo spec2: regress totalrevenues attendanceinthousand
